@@ -13,7 +13,7 @@
                 <img class="img-fluid" src="img/1.jpg" alt="">
                 <div class="desc">
                     <h4>
-                        Apple Watch White
+                        Sneakers
                     </h4>
                     <h6>£399.00</h6>
                     <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
@@ -25,7 +25,7 @@
                 <img class="img-fluid" src="img/4.png" alt="">
                 <div class="desc">
                     <h4>
-                        Apple Watch White
+                        Sneakers
                     </h4>
                     <h6>£399.00</h6>
                     <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
@@ -37,7 +37,7 @@
                 <img class="img-fluid" src="img/3.png" alt="">
                 <div class="desc">
                     <h4>
-                        Apple Watch White
+                        Sneakers
                     </h4>
                     <h6>£399.00</h6>
                     <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
@@ -49,7 +49,7 @@
                 <img class="img-fluid" src="img/5.png" alt="">
                 <div class="desc">
                     <h4>
-                        Apple Watch White
+                        Sneakers
                     </h4>
                     <h6>£399.00</h6>
                     <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
