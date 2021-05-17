@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/1.jpg" alt="">
+                <img class="img-fluid" src="img/4.png" alt="">
                 <div class="desc">
                     <h4>
                         Apple Watch White
@@ -34,7 +34,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/1.jpg" alt="">
+                <img class="img-fluid" src="img/3.png" alt="">
                 <div class="desc">
                     <h4>
                         Apple Watch White
@@ -46,7 +46,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/1.jpg" alt="">
+                <img class="img-fluid" src="img/5.png" alt="">
                 <div class="desc">
                     <h4>
                         Apple Watch White
