@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/onlineShop/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -133,19 +136,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/onlineShop/artisan" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
+  <component name="RunManager" selected="PHP Script.localhost">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true">
       <method v="2" />
     </configuration>
+    <configuration name="localhost" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/onlineShop/artisan" scriptParameters="serve">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.3" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item itemvalue="PHP Script.localhost" />
       <item itemvalue="PHP Script.Unnamed" />
     </list>
   </component>
@@ -158,6 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621252887833</updated>
       <workItem from="1621252939740" duration="14266000" />
+      <workItem from="1621276834549" duration="466000" />
     </task>
     <servers />
   </component>
