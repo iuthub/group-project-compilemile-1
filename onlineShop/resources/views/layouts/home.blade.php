@@ -5,7 +5,7 @@
             <h1>
                 Smart New Future
             </h1>
-            <a href="viscard.blade.php" class="primary-btn text-uppercase">Buy Now</a>
+            <a href="../viscard.blade.php" class="primary-btn text-uppercase">Buy Now</a>
         </div>
     </div>
 </div>

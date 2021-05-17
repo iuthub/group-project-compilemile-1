@@ -49,38 +49,38 @@
 
     <!-- start home -->
     <section class="banner-area" id="home">
-        @include('home')
+        @include('layouts.home')
     </section>
     <!-- End home -->
 
     <!-- Start news -->
     <section class="top-course-area section-gap" id="news">
-        @include('news')
+        @include('layouts.news')
     </section>
     <!-- End news -->
 
     <!-- Start service -->
     <section class="service-area section-gap" id="service">
-        @include('service')
+        @include('layouts.service')
     </section>
     <!-- End service -->
 
     <!-- Start products-->
     <section class="unique-feature-area section-gap" class="products" id="products">
-        @include('products')
+        @include('layouts.products')
     </section>
     <!-- End products-->
 
     <!-- Start review -->
     <section class="review-area section-gap" id="review">
-        @include('review')
+        @include('layouts.review')
     </section>
     <!-- End review -->
 
 
     <!-- Start footer -->
     <footer class="bg-light text-center text-lg-start" id="contact">
-        @include('contact')
+        @include('layouts.contact')
     </footer>
     <!-- End footer -->
 

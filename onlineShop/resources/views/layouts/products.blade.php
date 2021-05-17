@@ -10,13 +10,13 @@
     <div class="row">
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="./resources/1.jpg" alt="">
+                <img class="img-fluid" src="../../1.jpg" alt="">
                 <div class="desc">
                     <h4>
                         Apple Watch White
                     </h4>
                     <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="viscard.blade.php">Pre Order</a>
+                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                         Apple Watch White
                     </h4>
                     <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="viscard.blade.php">Pre Order</a>
+                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
                         Apple Watch White
                     </h4>
                     <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="viscard.blade.php">Pre Order</a>
+                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
                         Apple Watch White
                     </h4>
                     <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="viscard.blade.php">Pre Order</a>
+                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
                 </div>
             </div>
         </div>
