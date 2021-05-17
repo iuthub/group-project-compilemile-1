@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="col-lg-6 course-middle">
-            <img class="img-fluid mx-auto d-block" src="img/c1.png" alt="">
+            <img class="img-fluid mx-auto d-block" src="img/2.png" alt="">
         </div>
         <div class="col-lg-3 course-right">
             <div class="single-course">
