@@ -14,7 +14,7 @@
 
 <body>
 
-    <header id="header" id="home">
+    <header id="header">
         <div class="container">
             <div class="row align-items-center justify-content-between d-flex">
                 <div id="logo">
