@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="UserTableSeeder.php created" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="UserTableSeeder.php created">
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/database/migrations/2021_05_20_222659_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/database/seeders/ProductTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/database/seeders/DatabaseSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,8 +191,8 @@
     </configuration>
     <list>
       <item itemvalue="PHP Built-in Web Server.Unnamed" />
-      <item itemvalue="PHP Script.localhost" />
       <item itemvalue="PHP Script.Unnamed" />
+      <item itemvalue="PHP Script.localhost" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
