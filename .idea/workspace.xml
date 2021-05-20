@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/kyrie-nike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-air-max.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-kd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/trainers.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/public/img/header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,19 +153,31 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1sf9dR1SieSX0HnfxGAkMWCYJDV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onlineShop/artisan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\php\group-project-compilemile-1\onlineShop\public\img" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.localhost">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
@@ -151,7 +189,7 @@
     <configuration name="localhost" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/onlineShop/artisan" scriptParameters="serve">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.3" />
+          <option name="interpreterName" value="PHP" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <method v="2" />
@@ -172,11 +210,28 @@
       <updated>1621252887833</updated>
       <workItem from="1621252939740" duration="14266000" />
       <workItem from="1621276834549" duration="466000" />
+      <workItem from="1621320728817" duration="2479000" />
+      <workItem from="1621332180540" duration="1357000" />
+      <workItem from="1621526668396" duration="12193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

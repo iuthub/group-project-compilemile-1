@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/1.jpg" alt="">
+                <img class="img-fluid" src="img/g1.png" alt="">
                 <div class="desc">
                     <h4>
                         Sneakers
@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/4.png" alt="">
+                <img class="img-fluid" src="img/g2.png" alt="">
                 <div class="desc">
                     <h4>
                         Sneakers
@@ -34,7 +34,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/3.png" alt="">
+                <img class="img-fluid" src="img/g3.png" alt="">
                 <div class="desc">
                     <h4>
                         Sneakers
@@ -46,7 +46,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
             <div class="single-unique-product">
-                <img class="img-fluid" src="img/5.png" alt="">
+                <img class="img-fluid" src="img/g4.png" alt="">
                 <div class="desc">
                     <h4>
                         Sneakers

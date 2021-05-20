@@ -316,10 +316,6 @@ h6 {
 }
 
 
-/* Nav Menu Arrows */
-
-.
-/* Nav Meu Container */
 
 #nav-menu-container {
     margin: 0;
@@ -471,14 +467,11 @@ h6 {
     bottom: 0;
 }
 
-.banner-area {
-    background: url(../img/header-bg.png) center;
-    background-size: cover;
-}
+
 
 @media (max-width: 1199.98px) {
     .banner-area .fullscreen {
-        height: 800px !important;
+        height: 400px !important;
     }
 }
 
@@ -556,19 +549,6 @@ h6 {
     }
 }
 
-.video-right {
-    background: url(../img/video-bg.png) no-repeat center;
-    background-size: cover;
-    height: 350px;
-}
-
-.video-right .overlay-bg {
-    background-color: rgba(0, 0, 0, 0.78);
-}
-
-.video-right .play-btn {
-    z-index: 2;
-}
 
 @media (max-width: 800px) {
     .video-right {

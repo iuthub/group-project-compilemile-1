@@ -1,13 +1,14 @@
 #header {
     background-color: black;
 }
-
+.section-gap{
+    margin-top: 50px;
+    padding: 20px;
+}
 .banner-area {
     position: relative;
-    background: url(./public/img/header-bg.png);
-    min-height: 105vh;
+    min-height: 80vh;
     background-position: center;
-    padding: 400px 0 350px;
 }
 
 .rounded {
