@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/kyrie-nike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-air-max.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-kd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/trainers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="UserTableSeeder.php created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +12,20 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -150,6 +134,11 @@
       <path value="$PROJECT_DIR$/onlineShop/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/onlineShop/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/onlineShop/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/bacon/bacon-qr-code" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sf9dR1SieSX0HnfxGAkMWCYJDV" />
@@ -189,7 +178,7 @@
     <configuration name="localhost" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/onlineShop/artisan" scriptParameters="serve">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP" />
+          <option name="interpreterName" value="PHP 7.3" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <method v="2" />
@@ -214,6 +203,28 @@
       <workItem from="1621332180540" duration="1357000" />
       <workItem from="1621526668396" duration="12193000" />
     </task>
+    <task id="LOCAL-00001" summary="Add auth panel">
+      <created>1621547470538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621547470538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add extra fields and validation">
+      <created>1621548116884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621548116884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UserTableSeeder.php created">
+      <created>1621548598450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621548598450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,9 +240,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add auth panel" />
+    <MESSAGE value="Add extra fields and validation" />
+    <MESSAGE value="UserTableSeeder.php created" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserTableSeeder.php created" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -26,16 +26,15 @@
                         <li><a href="#service">Service</a></li>
                         <li><a href="#products">Products</a></li>
                         <li><a href="#review">Review</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <li><p>Hello dear {{ Auth::user()->name }}</p></li>
 
                         <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-
-                        <li class="menu-has-children"><a href="">Pages</a>
-                            <ul>
-                                <li><a href="generic.html">Generic</a></li>
-                                <li><a href="elements.html">Elements</a></li>
-                            </ul>
+                            <form action="{{ route('logout') }}" method="post">
+                                @csrf
+                                <input type="submit" value="log out">
+                            </form>
                         </li>
 
                     </ul>
