@@ -48,45 +48,45 @@
                 <input type="password" name="password_confirmation" id="password_confirmation">
             </div>
 
-{{--            <div class="form-group">--}}
-{{--                <label for="phoneNumber">Phone number:</label>--}}
-{{--                <input type="phoneNumber" name="phoneNumber" value="{{ old('phoneNumber') }}" id="phoneNumber" placeholder="9989xxyyyyyyy">--}}
-{{--                @error('phoneNumber')--}}
-{{--                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>--}}
-{{--                @enderror--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <label for="phoneNumber">Phone number:</label>
+                <input type="phoneNumber" name="phoneNumber" value="{{ old('phoneNumber') }}" id="phoneNumber" placeholder="9989xxyyyyyyy">
+                @error('phoneNumber')
+                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
+                @enderror
+            </div>
 
-{{--            <div class="form-group">--}}
-{{--                <label for="postalCode">Postal code:</label>--}}
-{{--                <input type="postalCode" name="postalCode" value="{{ old('postalCode') }}" id="postalCode"  placeholder="1234567">--}}
-{{--                @error('postalCode')--}}
-{{--                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>--}}
-{{--                @enderror--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <label for="postalCode">Postal code:</label>
+                <input type="postalCode" name="postalCode" value="{{ old('postalCode') }}" id="postalCode"  placeholder="1234567">
+                @error('postalCode')
+                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
+                @enderror
+            </div>
 
-{{--            <div class="form-group">--}}
-{{--                <label for="cityName">City name:</label>--}}
-{{--                <input type="cityName" name="cityName" value="{{ old('cityName') }}" id="cityName">--}}
-{{--                @error('cityName')--}}
-{{--                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>--}}
-{{--                @enderror--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <label for="cityName">City name:</label>
+                <input type="cityName" name="cityName" value="{{ old('cityName') }}" id="cityName">
+                @error('cityName')
+                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
+                @enderror
+            </div>
 
-{{--            <div class="form-group">--}}
-{{--                <label for="dateOfBirth">Date of birth:</label>--}}
-{{--                <input type="dateOfBirth" name="dateOfBirth" value="{{ old('dateOfBirth') }}" id="dateOfBirth"  placeholder="yyyy-mm-dd">--}}
-{{--                @error('dateOfBirth')--}}
-{{--                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>--}}
-{{--                @enderror--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <label for="dateOfBirth">Date of birth:</label>
+                <input type="dateOfBirth" name="dateOfBirth" value="{{ old('dateOfBirth') }}" id="dateOfBirth"  placeholder="yyyy-mm-dd">
+                @error('dateOfBirth')
+                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
+                @enderror
+            </div>
 
-{{--            <div class="form-group">--}}
-{{--                <label for="passportNumber">Passport number:</label>--}}
-{{--                <input type="passportNumber" name="passportNumber" value="{{ old('passportNumber') }}" id="passportNumber" placeholder="aa1234567">--}}
-{{--                @error('passportNumber')--}}
-{{--                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>--}}
-{{--                @enderror--}}
-{{--            </div>--}}
+            <div class="form-group">
+                <label for="passportNumber">Passport number:</label>
+                <input type="passportNumber" name="passportNumber" value="{{ old('passportNumber') }}" id="passportNumber" placeholder="aa1234567">
+                @error('passportNumber')
+                <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
+                @enderror
+            </div>
 
             <div class="form-group">
                 <input type="submit" value="Register">

@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/PasswordValidationRules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/ResetUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/UpdateUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Providers/FortifyServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/config/fortify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/group-project-compilemile-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group-project-compilemile-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add auth panel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/CreateNewUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +209,14 @@
       <workItem from="1621332180540" duration="1357000" />
       <workItem from="1621526668396" duration="12193000" />
     </task>
+    <task id="LOCAL-00001" summary="Add auth panel">
+      <created>1621547470538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621547470538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add auth panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add auth panel" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
