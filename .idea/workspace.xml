@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="UserTableSeeder.php created">
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/database/migrations/2021_05_20_222659_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/database/seeders/ProductTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/database/seeders/DatabaseSeeder.php" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Product table and its seeder">
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621548598450</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Product table and its seeder">
+      <created>1621550153141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621550153141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +260,8 @@
     <MESSAGE value="Add auth panel" />
     <MESSAGE value="Add extra fields and validation" />
     <MESSAGE value="UserTableSeeder.php created" />
-    <option name="LAST_COMMIT_MESSAGE" value="UserTableSeeder.php created" />
+    <MESSAGE value="Add Product table and its seeder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Product table and its seeder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

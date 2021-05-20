@@ -25,7 +25,7 @@ class ProductTableSeeder extends Seeder
             'name' => 'Nike Boots',
             'code' => 'asics_boots',
             'price' => '55.99',
-            'description' => 'This is not the shoes that you will wear everytime, but you would prefer to spend the hours climbing uphills with them',
+            'description' => 'This is not the shoes that you will wear everytime, but every weekend',
             'img' => 'img/g2.png',
         ]);
         DB::table('products')->insert([

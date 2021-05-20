@@ -8,53 +8,22 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-                <img class="img-fluid" src="img/g1.png" alt="">
-                <div class="desc">
-                    <h4>
-                        Sneakers
-                    </h4>
-                    <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
+        @foreach($products as $product)
+            <div class="col-lg-3 col-md-6">
+                <div class="single-unique-product">
+                    <img class="img-fluid" src="{{ $product->img }}" alt="">
+                    <div class="desc">
+                        <h4>
+                            {{ $product->name }}
+                        </h4>
+                        <p>
+                            {{ $product->description }}
+                        </p>
+                        <h6>${{ $product->price }}</h6>
+                        <a class="text-uppercase primary-btn" href="../viscard.blade.php">Add to basket</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-                <img class="img-fluid" src="img/g2.png" alt="">
-                <div class="desc">
-                    <h4>
-                        Sneakers
-                    </h4>
-                    <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-                <img class="img-fluid" src="img/g3.png" alt="">
-                <div class="desc">
-                    <h4>
-                        Sneakers
-                    </h4>
-                    <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-                <img class="img-fluid" src="img/g4.png" alt="">
-                <div class="desc">
-                    <h4>
-                        Sneakers
-                    </h4>
-                    <h6>£399.00</h6>
-                    <a class="text-uppercase primary-btn" href="../viscard.blade.php">Pre Order</a>
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
 </div>
