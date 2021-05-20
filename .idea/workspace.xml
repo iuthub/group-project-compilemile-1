@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/g4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/kyrie-nike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-air-max.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/nike-kd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/trainers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/PasswordValidationRules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/ResetUserPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/UpdateUserPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/app/Providers/FortifyServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/config/fortify.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/group-project-compilemile-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group-project-compilemile-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/public/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/img/u4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +31,20 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -150,6 +153,11 @@
       <path value="$PROJECT_DIR$/onlineShop/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/onlineShop/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/onlineShop/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/laravel/fortify" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/onlineShop/vendor/bacon/bacon-qr-code" />
     </include_path>
   </component>
   <component name="ProjectId" id="1sf9dR1SieSX0HnfxGAkMWCYJDV" />
@@ -189,7 +197,7 @@
     <configuration name="localhost" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/onlineShop/artisan" scriptParameters="serve">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP" />
+          <option name="interpreterName" value="PHP 7.3" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <method v="2" />
@@ -229,6 +237,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

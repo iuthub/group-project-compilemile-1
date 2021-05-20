@@ -12,7 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::group([
+    'middleware'=>['auth']
+], function() {
+    Route::get('/', 'App\Http\Controllers\MainController@index');
+    Route::get('/pay', 'App\Http\Controllers\MainController@pay');
+});
 
-Route::get('/', 'App\Http\Controllers\MainController@index');
-
-Route::get('/pay', 'App\Http\Controllers\MainController@pay');
