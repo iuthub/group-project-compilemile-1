@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <title>Sneakers</title>
 
+    <link rel="icon" href="img/trainers.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">    <link rel="stylesheet" href="/css/app.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
@@ -16,11 +18,14 @@
     <header id="header">
         <div class="container">
             <div class="row align-items-center justify-content-between d-flex">
-                <div id="logo">
 
-                </div>
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
+                        <li>
+                            <a class="navbar-brand" href="#">
+                                <img src="img/trainers.png" alt="" width="25" height="24">
+                            </a>
+                        </li>
                         <li class="menu-active"><a href="#home">Home</a></li>
                         <li><a href="#news">News</a></li>
                         <li><a href="#service">Service</a></li>
@@ -28,7 +33,9 @@
                         <li><a href="#review">Review</a></li>
                         <li><a href="#contact">Contact</a></li>
 
-                        <li><p>Hello dear {{ Auth::user()->name }}</p></li>
+                        <li>
+                            <p>Hello dear {{ Auth::user()->name }}</p>
+                        </li>
 
                         <li>
                             <form action="{{ route('logout') }}" method="post">
@@ -38,6 +45,7 @@
                         </li>
 
                     </ul>
+
                 </nav>
                 <!-- #nav-menu-container -->
             </div>

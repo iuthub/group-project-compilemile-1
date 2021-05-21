@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Sneakers Login</title>
 
+    <link rel="icon" href="img/trainers.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/css/app.css">
