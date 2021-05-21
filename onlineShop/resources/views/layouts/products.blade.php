@@ -20,7 +20,7 @@
                             {{ $product->description }}
                         </p>
                         <h6>${{ $product->price }}</h6>
-                        <a class="text-uppercase primary-btn" href="../viscard.blade.php">Add to basket</a>
+                        <a class="text-uppercase primary-btn" href="../order.blade.php">Add to basket</a>
                     </div>
                 </div>
             </div>

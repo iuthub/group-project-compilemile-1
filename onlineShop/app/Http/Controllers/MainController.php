@@ -12,7 +12,4 @@ class MainController extends Controller
         return view('index', compact('products'));
     }
 
-    public function pay() {
-        return view('viscard');
-    }
 }

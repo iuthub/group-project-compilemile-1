@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware'=>['auth']
 ], function() {
-    Route::get('/', 'App\Http\Controllers\MainController@index');
-    Route::get('/pay', 'App\Http\Controllers\MainController@pay');
+    Route::get('/', 'App\Http\Controllers\MainController@index')->name('index');
+
+    Route::get('/basket', 'App\Http\Controllers\BasketController@basket')->name('basket');
+    Route::get('/basket/place', 'App\Http\Controllers\BasketController@basketPlace')->name('basket-place');
 });
 

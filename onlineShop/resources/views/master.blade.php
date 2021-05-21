@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">My Orders</a>
+                    <a class="nav-link" href="{{ route('basket') }}">My Orders</a>
                 </li>
 
             </ul>
