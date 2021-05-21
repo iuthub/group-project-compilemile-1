@@ -20,7 +20,12 @@
                             {{ $product->description }}
                         </p>
                         <h6>${{ $product->price }}</h6>
-                        <a class="text-uppercase primary-btn" href="../order.blade.php">Add to basket</a>
+
+                        <form action="{{ route('basket-add', $product) }}" method="post">
+                            @csrf
+                            <button type="submit" class="text-uppercase primary-btn">Add to basket</button>
+                        </form>
+
                     </div>
                 </div>
             </div>
