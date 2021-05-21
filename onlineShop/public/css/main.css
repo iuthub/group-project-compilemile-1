@@ -554,6 +554,16 @@ h6 {
     .video-right {
         margin-top: 100px;
     }
+
+    .fab {
+        padding: 15px;
+        margin-right: 10px;
+        font-size: 15px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #f9fafc;
+    }
 }
 
 .top-course-area {
@@ -684,4 +694,31 @@ h6 {
     background-color: white;
     box-shadow: 0px 20px 30px 0px rgba(35, 94, 231, 0.2);
 }
+
+.fab {
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #f9fafc;
+}
+
+.fa-facebook-square:hover{
+    color: #005cbf;
+}
+
+.fa-instagram:hover{
+    color: #dc3545;
+}
+
+.fa-twitter:hover{
+    color: #6db1f3;
+}
+
+.fa-youtube:hover{
+    color: #e9081d;
+}
+
 
