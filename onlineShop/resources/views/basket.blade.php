@@ -32,6 +32,14 @@
                 </li>
 
             </ul>
+            <span style="margin: auto">
+                @if(session()->has('success'))
+                    <p class="card alert-success">{{ session()->get('success') }}</p>
+                @endif
+                @if(session()->has('warning'))
+                    <p class="card alert-warning">{{ session()->get('warning') }}</p>
+                @endif
+            </span>
             <span class="navbar-text text-light m-2">
                     Hello dear {{ Auth::user()->name }}
                 </span>
