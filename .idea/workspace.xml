@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Product table and its seeder">
-      <change beforePath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Take product data from DB">
+      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +172,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ulugbek\OneDrive\Desktop\Study\Spring2021\IP\Project\group-project-compilemile-1\onlineShop\resources\views" />
       <recent name="C:\xampp\php\group-project-compilemile-1\onlineShop\public\img" />
     </key>
   </component>
@@ -208,6 +210,7 @@
       <workItem from="1621320728817" duration="2479000" />
       <workItem from="1621332180540" duration="1357000" />
       <workItem from="1621526668396" duration="12193000" />
+      <workItem from="1621632400341" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="Add auth panel">
       <created>1621547470538</created>
