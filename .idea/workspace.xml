@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Product table and its seeder">
-      <change beforePath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/products.blade.php" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Basket menu back done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/BasketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/app/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/order.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +164,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestProject/onlineShop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -171,6 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ulugbek\OneDrive\Desktop\Study\Spring2021\IP\Project\group-project-compilemile-1\onlineShop\resources\views" />
       <recent name="C:\xampp\php\group-project-compilemile-1\onlineShop\public\img" />
     </key>
   </component>
@@ -208,6 +213,7 @@
       <workItem from="1621320728817" duration="2479000" />
       <workItem from="1621332180540" duration="1357000" />
       <workItem from="1621526668396" duration="12193000" />
+      <workItem from="1621632400341" duration="6372000" />
     </task>
     <task id="LOCAL-00001" summary="Add auth panel">
       <created>1621547470538</created>
@@ -237,7 +243,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621550153141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add master.blade.php and index change">
+      <created>1621633377744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621633377744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add basket and Order templates">
+      <created>1621634694876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621634694876</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Basket menu back done">
+      <created>1621637681723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621637681723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +288,10 @@
     <MESSAGE value="Add extra fields and validation" />
     <MESSAGE value="UserTableSeeder.php created" />
     <MESSAGE value="Add Product table and its seeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Product table and its seeder" />
+    <MESSAGE value="Add master.blade.php and index change" />
+    <MESSAGE value="Add basket and Order templates" />
+    <MESSAGE value="Basket menu back done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basket menu back done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

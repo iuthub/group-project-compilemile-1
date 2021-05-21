@@ -15,7 +15,12 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware'=>['auth']
 ], function() {
-    Route::get('/', 'App\Http\Controllers\MainController@index');
-    Route::get('/pay', 'App\Http\Controllers\MainController@pay');
+    Route::get('/', 'App\Http\Controllers\MainController@index')->name('index');
+
+    Route::get('/basket', 'App\Http\Controllers\BasketController@basket')->name('basket');
+    Route::get('/basket/place{fullPrice}', 'App\Http\Controllers\BasketController@basketPlace')->name('basket-place');
+    Route::post('/basket/add/{id}', 'App\Http\Controllers\BasketController@basketAdd')->name('basket-add');
+    Route::post('/basket/remove/{id}', 'App\Http\Controllers\BasketController@basketRemove')->name('basket-remove');
+    Route::post('/basket/confirm', 'App\Http\Controllers\BasketController@basketConfirm')->name('basket-confirm');
 });
 
