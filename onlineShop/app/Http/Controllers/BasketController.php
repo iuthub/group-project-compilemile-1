@@ -15,6 +15,38 @@ class BasketController extends Controller
         return view('basket', compact('order'));
     }
 
+    public function basketConfirm(Request $request) {
+        $orderId = session('orderId');
+        if (is_null($orderId)) {
+            return redirect()->route('index');
+        }
+        $order = Order::find($orderId);
+
+        //Validation
+        $request->validate([
+            'email' => [
+                'required',
+                'string',
+                'email',
+                'max:255',
+            ],
+            'phoneNumber' => ['required', 'regex:/9989(0|3|4|9)(\d){7}/', 'string'],
+        ]);
+        //Validation
+
+        $success = $order->saveOrder($request->email, $request->phoneNumber);
+
+        //Flash
+        if ($success) {
+            session()->flash('success', 'Your order has been sent for processing');
+        } else {
+            session()->flash('warning', 'Something went wrong...');
+        }
+        //Flash
+
+        return redirect()->route('index');
+    }
+
     public function basketPlace($fullPrice) {
         if ($fullPrice == 0) {
             return redirect()->route('basket');

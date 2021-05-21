@@ -18,4 +18,17 @@ class Order extends Model
         }
         return $sum;
     }
+
+    public function saveOrder($email, $phoneNumber) {
+        if ($this->status == 0) {
+            $this->email = $email;
+            $this->phoneNumber = $phoneNumber;
+            $this->status = 1;
+            $this->save();
+            session()->forget('orderId');
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

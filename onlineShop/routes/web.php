@@ -21,5 +21,6 @@ Route::group([
     Route::get('/basket/place{fullPrice}', 'App\Http\Controllers\BasketController@basketPlace')->name('basket-place');
     Route::post('/basket/add/{id}', 'App\Http\Controllers\BasketController@basketAdd')->name('basket-add');
     Route::post('/basket/remove/{id}', 'App\Http\Controllers\BasketController@basketRemove')->name('basket-remove');
+    Route::post('/basket/confirm', 'App\Http\Controllers\BasketController@basketConfirm')->name('basket-confirm');
 });
 
