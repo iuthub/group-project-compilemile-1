@@ -69,9 +69,7 @@
             @foreach($order->products as $product)
                 <tr>
                     <td  class="border-0 align-middle text-center">
-                        <a href="http://laravel-diplom-1.rdavydov.ru/mobiles/iphone_x_64">
-                            {{ $product->name }}
-                        </a>
+                        {{ $product->name }}
                     </td>
                     <td  class="border-0 align-middle text-center">
                         <div class="btn-group">

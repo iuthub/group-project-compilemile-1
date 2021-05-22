@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Leave feedback section">
-      <change afterPath="$PROJECT_DIR$/report/Compile-mile(report).docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/~$mpile-mile(report).docx" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add report">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621698006652</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add report">
+      <created>1621705103872</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621705103872</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +326,8 @@
     <MESSAGE value="Add Flash messages" />
     <MESSAGE value="Add cursor to login and register and refactor made" />
     <MESSAGE value="Add Leave feedback section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Leave feedback section" />
+    <MESSAGE value="Add report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add report" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
