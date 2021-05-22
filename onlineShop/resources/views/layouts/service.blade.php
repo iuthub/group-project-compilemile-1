@@ -2,9 +2,7 @@
     <div class="row d-flex justify-content-center">
         <div class="col-md-8 pb-40 header-text">
             <h1>Some Features that Made us Unique</h1>
-            <p>
-                Who are in extremely love with eco friendly system.
-            </p>
+            <p>What we offer to our clients.</p>
         </div>
     </div>
     <div class="row">

@@ -5,38 +5,42 @@
 @section('content')
 
     <!-- start home -->
-    <section class="banner-area" id="home" >
+    <section class="banner-area">
         @include('layouts.home')
     </section>
     <!-- End home -->
 
+    <div id="news"></div>
     <!-- Start news -->
-    <section class="top-course-area section-gap" id="news">
+    <section class="top-course-area section-gap">
         @include('layouts.news')
     </section>
     <!-- End news -->
 
+    <div id="service"></div>
     <!-- Start service -->
-    <section class="service-area section-gap" id="service">
+    <section class="service-area section-gap">
         @include('layouts.service')
     </section>
     <!-- End service -->
 
+    <div id="products"></div>
     <!-- Start products-->
-    <section class="unique-feature-area section-gap" class="products" id="products">
+    <section class="unique-feature-area section-gap" class="products">
         @include('layouts.products')
     </section>
     <!-- End products-->
 
+    <div id="review"></div>
     <!-- Start review -->
-    <section class="review-area section-gap" id="review">
+    <section class="review-area section-gap">
         @include('layouts.review')
     </section>
     <!-- End review -->
 
-
+    <div id="contact"></div>
     <!-- Start footer -->
-    <footer class="bg-light text-center text-lg-start" id="contact">
+    <footer class="bg-light text-center text-lg-start">
         @include('layouts.contact')
     </footer>
     <!-- End footer -->

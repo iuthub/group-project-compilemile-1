@@ -3,7 +3,7 @@
         <div class="menu-content pb-60 col-lg-10">
             <div class="title text-center">
                 <h1 class="mb-10">What's the news?!</h1>
-                <p>Latest snickers workwear range and news.</p>
+                <p>Latest snickers work wear range and news.</p>
             </div>
         </div>
     </div>
