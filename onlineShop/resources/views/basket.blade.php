@@ -40,9 +40,7 @@
                     <p class="card alert-warning">{{ session()->get('warning') }}</p>
                 @endif
             </span>
-            <span class="navbar-text text-light m-2">
-                    Hello dear {{ Auth::user()->name }}
-                </span>
+
             <form action="{{ route('logout') }}" method="post">
                 @csrf
                 <button type="submit" class="btn btn-outline-light">
@@ -56,44 +54,44 @@
 
 <div class="starter-template">
     <h1 class="text-capitalize text-center mt-3">Shopping Cart</h1>
-    <h5 class="text-secondary text-heading text-center m-3">{{ Auth::user()->name }}'s orders</h5>
+    <h5 class="text-secondary text-center m-3">{{ Auth::user()->name }}'s orders</h5>
     <div class="panel">
-        <table class="table table-striped m-4  ">
+        <table class="table table-sm table-striped table-hover m-4">
             <thead>
             <tr>
-                <th class="border-0 bg-light">Name</th>
-                <th class="border-0 bg-light">Quantity</th>
-                <th class="border-0 bg-light">Price</th>
-                <th class="border-0 bg-light">Total</th>
+                <th class="border-0 bg-light text-center">NAME</th>
+                <th class="border-0 bg-light text-center">QUANTITY</th>
+                <th class="border-0 bg-light text-center">PRICE</th>
+                <th class="border-0 bg-light text-center">TOTAL</th>
             </tr>
             </thead>
             <tbody>
             @foreach($order->products as $product)
                 <tr>
-                    <td  class="border-0 align-middle">
+                    <td  class="border-0 align-middle text-center">
                         <a href="http://laravel-diplom-1.rdavydov.ru/mobiles/iphone_x_64">
                             {{ $product->name }}
                         </a>
                     </td>
-                    <td  class="border-0 align-middle"><span class="">{{ $product->pivot->count }}</span>
+                    <td  class="border-0 align-middle text-center">
                         <div class="btn-group">
                             <form action="{{ route('basket-remove', $product) }}" method="post">
                                 @csrf
-                                <button type="submit" class="btn btn-danger">
-                                    <span class="glyphicon glyphicon-minus" aria-hidden="true">-</span>
+                                <button type="submit" class="btn btn-outline-danger m-2">
+                                    <i class="fas fa-minus"></i>
                                 </button>
                             </form>
-
+                            <span class="m-3">{{ $product->pivot->count }}</span>
                             <form action="{{ route('basket-add', $product) }}" method="post">
                                 @csrf
-                                <button type="submit" class="btn btn-success">
-                                    <span class="glyphicon glyphicon-plus" aria-hidden="true">+</span>
+                                <button type="submit" class="btn btn-outline-success m-2">
+                                    <i class="fas fa-plus"></i>
                                 </button>
                             </form>
                         </div>
                     </td>
-                    <td  class="border-0 align-middle">${{ $product->price }}</td>
-                    <td  class="border-0 align-middle">${{ $product->getPriceForCount() }}</td>
+                    <td  class="border-0 align-middle text-center">${{ $product->price }}</td>
+                    <td  class="border-0 align-middle text-center">${{ $product->getPriceForCount() }}</td>
                 </tr>
             @endforeach
 
@@ -104,9 +102,9 @@
             </tbody>
         </table>
         <br>
-        <div class="btn-group pull-right" role="group">
-            <a type="button" class="btn btn-success" href="{{ route('basket-place', $order->getFullPrice()) }}">Make order</a>
-        </div>
+
+        <button style="float: right; margin-right: 3em" class="btn btn-dark btn-lg"> <a class="text-light" href="{{ route('basket-place', $order->getFullPrice()) }}">Make Order</a></button>
+
     </div>
 </div>
 </body>
