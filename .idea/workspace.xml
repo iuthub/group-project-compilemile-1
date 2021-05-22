@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add cursor to login and register and refactor made">
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/FeedbackController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/app/Models/Feedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/database/migrations/2021_05_22_152827_create_feedback_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/resources/views/feedback.blade.php" afterDir="false" />
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Leave feedback section">
+      <change afterPath="$PROJECT_DIR$/report/Compile-mile(report).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/~$mpile-mile(report).docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/layouts/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/layouts/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621691929341</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Leave feedback section">
+      <created>1621698006652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621698006652</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +320,8 @@
     <MESSAGE value="Done Order blade" />
     <MESSAGE value="Add Flash messages" />
     <MESSAGE value="Add cursor to login and register and refactor made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cursor to login and register and refactor made" />
+    <MESSAGE value="Add Leave feedback section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Leave feedback section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
