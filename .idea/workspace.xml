@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Done Order blade">
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/css/registration.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/bk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/login.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/padlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/profile-user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineShop/public/img/register.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/public/css/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/public/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +187,7 @@
     <configuration name="localhost" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/onlineShop/artisan" scriptParameters="serve">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 8.0" />
+          <option name="interpreterName" value="PHP 7.3" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <method v="2" />

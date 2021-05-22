@@ -61,6 +61,7 @@ section.side {
 }
 
 .login-btn{
+    cursor: pointer;
     background-color: #6610f2;
     color: #ffffff;
 }
