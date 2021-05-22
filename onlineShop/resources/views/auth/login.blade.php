@@ -10,6 +10,7 @@
     <link rel="icon" href="img/trainers.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/login.css">
 </head>
 
@@ -32,7 +33,7 @@
 
                 <label for="email"></label>
                 <input type="email" name="email" placeholder="Username"  {{ old('email') }}" id="email">
-                @error('email')
+                <i style="margin: 10px 5px"  class="fas fa-user"></i>@error('email')
                 <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
                 @enderror
             </div>
@@ -40,7 +41,7 @@
             <div class="form-control">
                 <label for="password"></label>
                 <input type="password" name="password" placeholder="Password" {{ old('password') }}" id="password">
-                <i class="fas fa-user"></i>
+                <i style="margin: 10px 5px" class="fas fa-unlock-alt"></i>
                 @error('password')
                 <div class="inline_error" style="color: red; font-size: small">{{ $message }}</div>
                 @enderror
