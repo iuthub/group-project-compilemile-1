@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -9,18 +10,25 @@
     <link rel="icon" href="img/trainers.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/app.css">
-    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="./css/register.css">
 </head>
-
 <body>
-<div class="container">
-    <h1>Register</h1>
+
+
+<section class="side">
+    <img src="./img/register.svg" alt="">
+</section>
+
+<section class="main">
+<div class="register-container">
+    <div class="title">Register</div>
+    <div class="separator"></div>
+
     <div class="add">
         <form class="addUser" action="{{ route('register') }}" method="post">
             @csrf
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="name">Name:</label>
                 <input type="text" name="name" value="{{ old('name') }}" id="name">
                 @error('name')
@@ -28,7 +36,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="email">Email:</label>
                 <input type="email" name="email" value="{{ old('email') }}" id="email" placeholder="emial@smth.com">
                 @error('email')
@@ -36,7 +44,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="password">Password:</label>
                 <input type="password" name="password" value="{{ old('password') }}" id="password">
                 @error('password')
@@ -44,12 +52,12 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="password_confirmation">Confirm Password:</label>
                 <input type="password" name="password_confirmation" id="password_confirmation">
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="phoneNumber">Phone number:</label>
                 <input type="phoneNumber" name="phoneNumber" value="{{ old('phoneNumber') }}" id="phoneNumber" placeholder="9989xxyyyyyyy">
                 @error('phoneNumber')
@@ -57,7 +65,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="postalCode">Postal code:</label>
                 <input type="postalCode" name="postalCode" value="{{ old('postalCode') }}" id="postalCode"  placeholder="1234567">
                 @error('postalCode')
@@ -65,7 +73,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="cityName">City name:</label>
                 <input type="cityName" name="cityName" value="{{ old('cityName') }}" id="cityName">
                 @error('cityName')
@@ -73,7 +81,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="dateOfBirth">Date of birth:</label>
                 <input type="dateOfBirth" name="dateOfBirth" value="{{ old('dateOfBirth') }}" id="dateOfBirth"  placeholder="yyyy-mm-dd">
                 @error('dateOfBirth')
@@ -81,7 +89,7 @@
                 @enderror
             </div>
 
-            <div class="form-group">
+            <div class="register-form">
                 <label for="passportNumber">Passport number:</label>
                 <input type="passportNumber" name="passportNumber" value="{{ old('passportNumber') }}" id="passportNumber" placeholder="aa1234567">
                 @error('passportNumber')
@@ -89,12 +97,25 @@
                 @enderror
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Register">
-                <a href="{{ route('login') }}">Login</a>
+            <div class="register-form">
+                <input type="submit" value="Register" class="register-btn">
+                <a href="{{ route('login') }}" class="login-btn">Login</a>
             </div>
 
         </form>
     </div>
 </div>
+</div>
+</section>
 </body>
+
+</html>
+
+
+
+
+
+
+
+
+
