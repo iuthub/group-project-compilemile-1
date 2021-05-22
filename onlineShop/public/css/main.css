@@ -125,7 +125,11 @@ h6 {
 
 
 
-
+.carousel-item{
+    height: auto;
+    width: 1400px !important;
+    overflow: hidden;
+}
 
 
 .container.fullwidth {
