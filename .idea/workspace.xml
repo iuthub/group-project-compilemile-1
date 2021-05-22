@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Done Order blade">
+    <list default="true" id="b8719bc3-e69c-4bca-b310-7d99eb5532e3" name="Default Changelist" comment="Add Flash messages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/app/Http/Controllers/BasketController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineShop/resources/views/basket.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/resources/views/basket.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineShop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/onlineShop/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestProject/onlineShop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -210,7 +210,8 @@
       <workItem from="1621320728817" duration="2479000" />
       <workItem from="1621332180540" duration="1357000" />
       <workItem from="1621526668396" duration="12193000" />
-      <workItem from="1621632400341" duration="7382000" />
+      <workItem from="1621632400341" duration="7773000" />
+      <workItem from="1621667973005" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="Add auth panel">
       <created>1621547470538</created>
@@ -268,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621638850361</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Flash messages">
+      <created>1621639997258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621639997258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="Add basket and Order templates" />
     <MESSAGE value="Basket menu back done" />
     <MESSAGE value="Done Order blade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done Order blade" />
+    <MESSAGE value="Add Flash messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Flash messages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

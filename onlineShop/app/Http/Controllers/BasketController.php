@@ -10,10 +10,13 @@ class BasketController extends Controller
 {
     public function basket() {
         $orderId = session('orderId');
+
         if (!is_null($orderId)) {
             $order = Order::findOrFail($orderId);
+            return view('basket', compact('order'));
+        } else {
+            return redirect()->route('index');
         }
-        return view('basket', compact('order'));
     }
 
     public function basketConfirm(Request $request) {
