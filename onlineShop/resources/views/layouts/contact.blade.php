@@ -28,8 +28,9 @@
             </div>
             <div class="col-lg-5  col-md-6 col-sm-6">
                 <div class="single-footer-widget">
-                    <h5 class="text-white">CONTACT INFORMATION</h5>
-                    <p class="text-secondary">Feel free to reach out us.</p>
+                    <h5 class=""><a class="" href="{{ route('feedback') }}">LEAVE YOUR FEEDBACK</a></h5>
+                    <p class="text-secondary">CONTACT INFORMATION</p>
+
                     <p>
                         <br>
                         <i class="fas fa-fax"></i>

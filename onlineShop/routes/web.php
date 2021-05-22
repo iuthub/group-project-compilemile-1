@@ -22,5 +22,8 @@ Route::group([
     Route::post('/basket/add/{id}', 'App\Http\Controllers\BasketController@basketAdd')->name('basket-add');
     Route::post('/basket/remove/{id}', 'App\Http\Controllers\BasketController@basketRemove')->name('basket-remove');
     Route::post('/basket/confirm', 'App\Http\Controllers\BasketController@basketConfirm')->name('basket-confirm');
+
+    Route::get('/feedback', 'App\Http\Controllers\FeedbackController@feedback')->name('feedback');
+    Route::post('/feedback/confirm', 'App\Http\Controllers\FeedbackController@feedbackConfirm')->name('feedback-confirm');
 });
 
