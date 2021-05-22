@@ -55,27 +55,27 @@
 <!-- End Header -->
 
 <div class="starter-template">
-    <h1>Basket</h1>
-    <p>{{ Auth::user()->name }}'s orders</p>
+    <h1 class="text-capitalize text-center mt-3">Shopping Cart</h1>
+    <h5 class="text-secondary text-heading text-center m-3">{{ Auth::user()->name }}'s orders</h5>
     <div class="panel">
-        <table class="table table-striped">
+        <table class="table table-striped m-4  ">
             <thead>
             <tr>
-                <th>Name</th>
-                <th>Quantity</th>
-                <th>Price</th>
-                <th>Total</th>
+                <th class="border-0 bg-light">Name</th>
+                <th class="border-0 bg-light">Quantity</th>
+                <th class="border-0 bg-light">Price</th>
+                <th class="border-0 bg-light">Total</th>
             </tr>
             </thead>
             <tbody>
             @foreach($order->products as $product)
                 <tr>
-                    <td>
+                    <td  class="border-0 align-middle">
                         <a href="http://laravel-diplom-1.rdavydov.ru/mobiles/iphone_x_64">
                             {{ $product->name }}
                         </a>
                     </td>
-                    <td><span class="">{{ $product->pivot->count }}</span>
+                    <td  class="border-0 align-middle"><span class="">{{ $product->pivot->count }}</span>
                         <div class="btn-group">
                             <form action="{{ route('basket-remove', $product) }}" method="post">
                                 @csrf
@@ -92,8 +92,8 @@
                             </form>
                         </div>
                     </td>
-                    <td>${{ $product->price }}</td>
-                    <td>${{ $product->getPriceForCount() }}</td>
+                    <td  class="border-0 align-middle">${{ $product->price }}</td>
+                    <td  class="border-0 align-middle">${{ $product->getPriceForCount() }}</td>
                 </tr>
             @endforeach
 
