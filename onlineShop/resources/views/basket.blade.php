@@ -94,7 +94,7 @@
             @endforeach
 
             <tr>
-                <td colspan="3">For All Orders:</td>
+                <td colspan="3">All Orders price:</td>
                 <td>${{ $order->getFullPrice() }}</td>
             </tr>
             </tbody>

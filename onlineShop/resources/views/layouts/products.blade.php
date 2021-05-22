@@ -3,7 +3,7 @@
         <div class="menu-content pb-60 col-lg-10">
             <div class="title text-center">
                 <h1 class="mb-10 text-white">Some of Our Recent Products</h1>
-                <p>Who are in extremely love with eco friendly system.</p>
+                <p>Who cares about comfort.</p>
             </div>
         </div>
     </div>
